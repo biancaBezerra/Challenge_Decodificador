@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/logo2.png" type="image/x-icon">
+  <title>Secret Message</title>
+  
+</head>
+<body>
+
+  <main>
+    <section class="secaoTexto">
+
+      <img src="assets/logo.png" class="logoSecaoTexto" alt="logo allura">
+
+      <article class="areaTexto">
+        <textarea name="areaDecodificacao" id="decodificar" cols="30" rows="10"></textarea>
+        <p>Digite apenas letras minusculas sem acentos</p>
+      </article>
+
+      <article class="buttons">
+        <button id="criptografar" class="cCriptografar">Criptografar</button>
+        <button id="descriptografar" class="dDescriptografar">Descriptografar</button>
+      </article>
+
+    </section>
+
+    <section class="lateralMenu">
+      <div class="resultMessage">Aqui fica o retorno da mensagem</div>
+
+      <article class="areaResult">
+        <img src="assets/notmessage.png" class="notMessage" alt="foto indicando que a mensagem nao foi encontrada">
+        <h1>Nenhuma mensagem encontrada</h1>
+        <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+      </article>
+
+      <article class="buttonResult">
+        <button id="copy" class="copiar">Copiar</button>
+      </article>
+
+    </section>
+  </main>
+  
+  <script src="app.js" type="module"></script>
+</body>
+</html>
