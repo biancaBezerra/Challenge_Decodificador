@@ -2,7 +2,7 @@
 
 Aplicação web simples para criptografar e descriptografar mensagens secretas usando um método de substituição de letras.
 
-![Secret Message Demo](src/assets/demo.gif)
+![Secret Message Demo](assets/demo.gif)
 
 ## Funcionalidades
 
