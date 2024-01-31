@@ -91,11 +91,7 @@ button {
   background-color: #c2c8d1;
 }
 
-.buttonResult {
-  display: none;
-}
-
-.resultMessage{
+.hidden {
   display: none;
 }
 
@@ -119,12 +115,4 @@ button {
 h1, p {
   text-align: center;
   padding: 1.5vw;
-
 }
-
-
-
-
-
-
-
