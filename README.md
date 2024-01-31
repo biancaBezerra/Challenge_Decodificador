@@ -31,7 +31,3 @@ Aplicação web simples para criptografar e descriptografar mensagens secretas u
 ## Autor
 
 - Bianca Bezerra
-
-## Licença
-
-Este projeto está sob a [Licença MIT](LICENSE).
